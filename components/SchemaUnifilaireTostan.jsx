@@ -14,7 +14,7 @@ const SchemaUnifilaireTostan = () => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'Schema_Unifilaire_TOSTAN_A3_v2.svg';
+    link.download = 'Schema_Unifilaire_TOSTAN_A3_v3.svg';
     link.click();
     URL.revokeObjectURL(url);
   };
@@ -150,18 +150,18 @@ const SchemaUnifilaireTostan = () => {
               <rect x="280" y="90" width="290" height="440" fill="#f0fdf4" stroke="#000" strokeWidth="2.5"/>
               <text x="425" y="115" fontFamily="Arial" fontSize="15" fontWeight="bold" textAnchor="middle">COMPACT 1</text>
               <text x="425" y="132" fontFamily="Arial" fontSize="9" textAnchor="middle">Admin + Archives + Cuisine + Pompe + Police</text>
-              <text x="425" y="145" fontFamily="Arial" fontSize="8" textAnchor="middle" fill="#059669" fontWeight="bold">ATS 300A</text>
+              <text x="425" y="145" fontFamily="Arial" fontSize="8" textAnchor="middle" fill="#059669" fontWeight="bold">ATS 200A</text>
 
               {/* Champs PV */}
               <rect x="295" y="160" width="260" height="52" fill="#fef3c7" stroke="#000" strokeWidth="1.5"/>
-              <text x="425" y="177" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">CHAMP PV - 69.6 kWc</text>
-              <text x="425" y="191" fontFamily="Arial" fontSize="9" textAnchor="middle">120 modules × 580Wc</text>
-              <text x="425" y="203" fontFamily="Arial" fontSize="8" textAnchor="middle">4 onduleurs × 2 strings × 15 modules</text>
+              <text x="425" y="177" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">CHAMP PV - 34.8 kWc</text>
+              <text x="425" y="191" fontFamily="Arial" fontSize="9" textAnchor="middle">60 modules × 580Wc</text>
+              <text x="425" y="203" fontFamily="Arial" fontSize="8" textAnchor="middle">3 onduleurs × 2 strings × 10 modules</text>
 
               {/* Coffrets DC */}
               <rect x="305" y="222" width="110" height="50" fill="#fff" stroke="#000" strokeWidth="1.5"/>
               <text x="360" y="237" fontFamily="Arial" fontSize="9" textAnchor="middle" fontWeight="bold">COFFRETS DC</text>
-              <text x="360" y="250" fontFamily="Arial" fontSize="8" textAnchor="middle">1000V / 25A (×4)</text>
+              <text x="360" y="250" fontFamily="Arial" fontSize="8" textAnchor="middle">1000V / 25A (×3)</text>
               <text x="360" y="262" fontFamily="Arial" fontSize="7" textAnchor="middle">Sectionneur + Fusibles</text>
               <line x1="360" y1="212" x2="360" y2="222" stroke="#dc2626" strokeWidth="2.5" strokeDasharray="5,3"/>
 
@@ -177,7 +177,7 @@ const SchemaUnifilaireTostan = () => {
 
               {/* Onduleurs */}
               <rect x="295" y="292" width="260" height="55" fill="#e0e7ff" stroke="#000" strokeWidth="1.5"/>
-              <text x="425" y="310" fontFamily="Arial" fontSize="11" fontWeight="bold" textAnchor="middle">4 × ONDULEURS SRNE 18kW</text>
+              <text x="425" y="310" fontFamily="Arial" fontSize="11" fontWeight="bold" textAnchor="middle">3 × ONDULEURS SRNE 18kW</text>
               <text x="425" y="325" fontFamily="Arial" fontSize="9" textAnchor="middle">HESP-18K - 48VDC / 400VAC</text>
               <text x="425" y="337" fontFamily="Arial" fontSize="8" textAnchor="middle">Parallèle AC - Busbar interne</text>
               <line x1="360" y1="272" x2="360" y2="292" stroke="#dc2626" strokeWidth="2.5" strokeDasharray="5,3"/>
@@ -185,8 +185,8 @@ const SchemaUnifilaireTostan = () => {
 
               {/* Batteries */}
               <rect x="295" y="357" width="260" height="52" fill="#fef9c3" stroke="#000" strokeWidth="1.5"/>
-              <text x="425" y="374" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">5 × BATTERIES LiFePO₄</text>
-              <text x="425" y="388" fontFamily="Arial" fontSize="9" textAnchor="middle">51,2V - 314Ah (80.4 kWh total)</text>
+              <text x="425" y="374" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">2 × BATTERIES LiFePO₄</text>
+              <text x="425" y="388" fontFamily="Arial" fontSize="9" textAnchor="middle">51,2V - 314Ah (32.2 kWh total)</text>
               <text x="425" y="401" fontFamily="Arial" fontSize="8" textAnchor="middle">Bus DC 48-52V | MegaFuse par branche</text>
               <line x1="425" y1="347" x2="425" y2="357" stroke="#dc2626" strokeWidth="2.5" strokeDasharray="5,3"/>
               <text x="425" y="420" fontFamily="Arial" fontSize="7" fill="#dc2626" textAnchor="middle">HO7RN-F 10mm²</text>
@@ -202,17 +202,17 @@ const SchemaUnifilaireTostan = () => {
               <rect x="430" y="422" width="125" height="56" fill="#dcfce7" stroke="#000" strokeWidth="1.5"/>
               <text x="492" y="437" fontFamily="Arial" fontSize="9" fontWeight="bold" textAnchor="middle">AC OUT</text>
               <text x="492" y="450" fontFamily="Arial" fontSize="8" textAnchor="middle">Inter 4P 63A</text>
-              <text x="492" y="461" fontFamily="Arial" fontSize="8" fontWeight="bold" textAnchor="middle">DJ 300A - 4P</text>
+              <text x="492" y="461" fontFamily="Arial" fontSize="8" fontWeight="bold" textAnchor="middle">DJ 200A - 4P</text>
               <text x="492" y="472" fontFamily="Arial" fontSize="7" textAnchor="middle">→ TGBT</text>
 
               {/* ATS Compact 1 */}
               <rect x="335" y="487" width="180" height="28" fill="#fffbeb" stroke="#000" strokeWidth="1.5"/>
-              <text x="425" y="504" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">ATS 300A - Interverrouillage</text>
+              <text x="425" y="504" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">ATS 200A - Interverrouillage</text>
 
               {/* Liaison vers TGBT */}
               <line x1="425" y1="515" x2="425" y2="542" stroke="#000" strokeWidth="3.5"/>
               <line x1="425" y1="542" x2="220" y2="542" stroke="#000" strokeWidth="3.5" markerEnd="url(#arrowhead)"/>
-              <text x="320" y="537" fontFamily="Arial" fontSize="9" fill="#059669" fontWeight="bold">RVFV 4G10mm²</text>
+              <text x="320" y="537" fontFamily="Arial" fontSize="9" fill="#059669" fontWeight="bold">RVFV 4G8mm²</text>
             </g>
 
             {/* COMPACT 2 */}
@@ -224,9 +224,9 @@ const SchemaUnifilaireTostan = () => {
 
               {/* Champs PV */}
               <rect x="615" y="160" width="260" height="52" fill="#fef3c7" stroke="#000" strokeWidth="1.5"/>
-              <text x="745" y="177" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">CHAMP PV - 52.2 kWc</text>
-              <text x="745" y="191" fontFamily="Arial" fontSize="9" textAnchor="middle">90 modules × 580Wc</text>
-              <text x="745" y="203" fontFamily="Arial" fontSize="8" textAnchor="middle">3 onduleurs × 2 strings × 15 modules</text>
+              <text x="745" y="177" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">CHAMP PV - 34.8 kWc</text>
+              <text x="745" y="191" fontFamily="Arial" fontSize="9" textAnchor="middle">60 modules × 580Wc</text>
+              <text x="745" y="203" fontFamily="Arial" fontSize="8" textAnchor="middle">3 onduleurs × 2 strings × 10 modules</text>
 
               {/* Coffrets DC */}
               <rect x="625" y="222" width="110" height="50" fill="#fff" stroke="#000" strokeWidth="1.5"/>
@@ -254,8 +254,8 @@ const SchemaUnifilaireTostan = () => {
 
               {/* Batteries */}
               <rect x="615" y="357" width="260" height="52" fill="#fef9c3" stroke="#000" strokeWidth="1.5"/>
-              <text x="745" y="374" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">4 × BATTERIES LiFePO₄</text>
-              <text x="745" y="388" fontFamily="Arial" fontSize="9" textAnchor="middle">51,2V - 314Ah (64.3 kWh total)</text>
+              <text x="745" y="374" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">2 × BATTERIES LiFePO₄</text>
+              <text x="745" y="388" fontFamily="Arial" fontSize="9" textAnchor="middle">51,2V - 314Ah (32.2 kWh total)</text>
               <text x="745" y="401" fontFamily="Arial" fontSize="8" textAnchor="middle">Bus DC 48-52V | MegaFuse par branche</text>
               <line x1="745" y1="347" x2="745" y2="357" stroke="#dc2626" strokeWidth="2.5" strokeDasharray="5,3"/>
               <text x="745" y="420" fontFamily="Arial" fontSize="7" fill="#dc2626" textAnchor="middle">HO7RN-F 10mm²</text>
@@ -293,9 +293,9 @@ const SchemaUnifilaireTostan = () => {
 
               {/* Champs PV */}
               <rect x="935" y="160" width="260" height="52" fill="#fef3c7" stroke="#000" strokeWidth="1.5"/>
-              <text x="1065" y="177" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">CHAMP PV - 36.5 kWc</text>
-              <text x="1065" y="191" fontFamily="Arial" fontSize="9" textAnchor="middle">63 modules × 580Wc</text>
-              <text x="1065" y="203" fontFamily="Arial" fontSize="8" textAnchor="middle">2 ond. × (2×16 + 15+16 modules)</text>
+              <text x="1065" y="177" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">CHAMP PV - 16.2 kWc</text>
+              <text x="1065" y="191" fontFamily="Arial" fontSize="9" textAnchor="middle">28 modules × 580Wc</text>
+              <text x="1065" y="203" fontFamily="Arial" fontSize="8" textAnchor="middle">2 onduleurs × 14 modules (1 string/ond.)</text>
 
               {/* Coffrets DC */}
               <rect x="945" y="222" width="110" height="50" fill="#fff" stroke="#000" strokeWidth="1.5"/>
@@ -323,9 +323,9 @@ const SchemaUnifilaireTostan = () => {
 
               {/* Batteries */}
               <rect x="935" y="357" width="260" height="52" fill="#fef9c3" stroke="#000" strokeWidth="1.5"/>
-              <text x="1065" y="374" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">3 × BATTERIES LiFePO₄</text>
-              <text x="1065" y="388" fontFamily="Arial" fontSize="9" textAnchor="middle">51,2V - 314Ah (48.2 kWh total)</text>
-              <text x="1065" y="401" fontFamily="Arial" fontSize="8" textAnchor="middle">Bus DC 48-52V | MegaFuse par branche</text>
+              <text x="1065" y="374" fontFamily="Arial" fontSize="10" fontWeight="bold" textAnchor="middle">1 × BATTERIE LiFePO₄</text>
+              <text x="1065" y="388" fontFamily="Arial" fontSize="9" textAnchor="middle">51,2V - 314Ah (16.1 kWh total)</text>
+              <text x="1065" y="401" fontFamily="Arial" fontSize="8" textAnchor="middle">Bus DC 48-52V | MegaFuse</text>
               <line x1="1065" y1="347" x2="1065" y2="357" stroke="#dc2626" strokeWidth="2.5" strokeDasharray="5,3"/>
               <text x="1065" y="420" fontFamily="Arial" fontSize="7" fill="#dc2626" textAnchor="middle">HO7RN-F 10mm²</text>
 
@@ -520,20 +520,20 @@ const SchemaUnifilaireTostan = () => {
               <line x1="1000" y1="950" x2="1380" y2="950" stroke="#000" strokeWidth="1"/>
               <line x1="1200" y1="855" x2="1200" y2="980" stroke="#000" strokeWidth="1"/>
               
-              <text x="1010" y="875" fontFamily="Arial" fontSize="16" fontWeight="bold">TOSTAN TRAINING CENTER (Thiès, Sénégal)</text>
+              <text x="1010" y="875" fontFamily="Arial" fontSize="16" fontWeight="bold">TOSTAN TRAINING CENTER</text>
               <text x="1010" y="908" fontFamily="Arial" fontSize="11">Auteur: I. Seck / Takoussane Energy</text>
-              <text x="1210" y="908" fontFamily="Arial" fontSize="11">Projet: PV Hybride 158.3 kWc</text>
-              <text x="1010" y="938" fontFamily="Arial" fontSize="11">Date: 17/11/2025</text>
-              <text x="1210" y="938" fontFamily="Arial" fontSize="11">Format papier: A3</text>
+              <text x="1210" y="908" fontFamily="Arial" fontSize="11">Projet: PV Hybride 85.8 kWc</text>
+              <text x="1010" y="938" fontFamily="Arial" fontSize="11">Site: Thiès, Sénégal</text>
+              <text x="1210" y="938" fontFamily="Arial" fontSize="11">Date: 17/11/2025</text>
               <text x="1010" y="968" fontFamily="Arial" fontSize="11" fontWeight="bold">Norme: NFC 15-100 / NS 01-001</text>
-              <text x="1210" y="968" fontFamily="Arial" fontSize="11">Révision: V2.0</text>
+              <text x="1210" y="968" fontFamily="Arial" fontSize="11">Révision: V3.0</text>
               
               <text x="1190" y="875" fontFamily="Arial" fontSize="8" fill="#666">Conforme</text>
             </g>
 
             {/* Annotations techniques supplémentaires */}
-            <text x="230" y="85" fontFamily="Arial" fontSize="9" fill="#666" fontStyle="italic">Total système: 9× onduleurs 18kW | 12× batteries 51,2V-314Ah | 273× modules 580Wc</text>
-            <text x="230" y="75" fontFamily="Arial" fontSize="9" fill="#666" fontStyle="italic">Stockage total: 192.9 kWh | Production annuelle estimée: ~235 MWh/an</text>
+            <text x="230" y="85" fontFamily="Arial" fontSize="9" fill="#666" fontStyle="italic">Total système: 8× onduleurs 18kW | 5× batteries 51,2V-314Ah | 148× modules 580Wc</text>
+            <text x="230" y="75" fontFamily="Arial" fontSize="9" fill="#666" fontStyle="italic">Stockage total: 80.5 kWh | Production annuelle estimée: ~127 MWh/an</text>
 
           </svg>
         </div>

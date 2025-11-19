@@ -520,11 +520,11 @@ const SchemaUnifilaireTostan = () => {
               <line x1="1000" y1="950" x2="1380" y2="950" stroke="#000" strokeWidth="1"/>
               <line x1="1200" y1="855" x2="1200" y2="980" stroke="#000" strokeWidth="1"/>
               
-              <text x="1010" y="875" fontFamily="Arial" fontSize="16" fontWeight="bold">TOSTAN TRAINING CENTER</text>
+              <text x="1010" y="875" fontFamily="Arial" fontSize="16" fontWeight="bold">TOSTAN TRAINING CENTER (Thiès, Sénégal)</text>
               <text x="1010" y="908" fontFamily="Arial" fontSize="11">Auteur: I. Seck / Takoussane Energy</text>
-              <text x="1210" y="908" fontFamily="Arial" fontSize="11">Projet: PV Hybride 85.8 kWc</text>
-              <text x="1010" y="938" fontFamily="Arial" fontSize="11">Site: Thiès, Sénégal</text>
-              <text x="1210" y="938" fontFamily="Arial" fontSize="11">Date: 17/11/2025</text>
+              <text x="1210" y="908" fontFamily="Arial" fontSize="11">Projet: PV Hybride 158.3 kWc</text>
+              <text x="1010" y="938" fontFamily="Arial" fontSize="11">Date: 20/11/2025</text>
+              <text x="1210" y="938" fontFamily="Arial" fontSize="11">Format papier: A3</text>
               <text x="1010" y="968" fontFamily="Arial" fontSize="11" fontWeight="bold">Norme: NFC 15-100 / NS 01-001</text>
               <text x="1210" y="968" fontFamily="Arial" fontSize="11">Révision: V3.0</text>
               
